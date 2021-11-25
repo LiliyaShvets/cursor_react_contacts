@@ -1,5 +1,6 @@
 {
-  "name": "cursor_react",
+  "homepage": "https://liliyashvets.github.io/cursor_react_contacts",
+  "name": "cursor_react_contacts",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -12,6 +13,8 @@
     "web-vitals": "^1.1.2"
   },
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
